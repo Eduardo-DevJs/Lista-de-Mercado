@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lista de compras</title>
+</head>
+<body>
+    <div id="itensParaComprar">
+        <label for="no">Lista de compras</label>
+        <select id="no" multiple size="6">
+            <option value="arroz">Arroz</option>
+            <option value="arroz">Feijão</option>
+            <option value="arroz">Pó de café</option>
+            <option value="arroz">Macarrão</option>
+            <option value="arroz">Pão</option>
+            <option value="arroz">Manteiga</option>
+        </select>
+    </div>
+
+    <div id="buttons">
+        <button id="to-yes">Comprado ➡️</button>
+        <button id="to-no">⬅️ Cancelar</button>
+    </div>
+
+    <div id="itensComprados">
+        <label for="yes">Comprados</label>
+        <select id="yes" multiple size="6"></select>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
